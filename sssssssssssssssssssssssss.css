@@ -1,0 +1,110 @@
+body {
+    background-color: #55AAAA;
+    background-image: url('https://vignette.wikia.nocookie.net/windows/images/4/4e/Windows_NT_4.0.png');
+    background-repeat: no-repeat;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    background-position: center; 
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Fixedsys Excelsior 3.01'), url('FSEX300.woff') format('woff');
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    cursor: url("http://www.rw-designer.com/cursor-download.php?id=128661"), auto;
+    display: table;
+    margin: auto;
+}
+
+div.gui {
+    background-color: #C3C6CB;
+    width: 300px;
+    border-width:5px; 
+    border-left: 2px solid #E6E9EA;
+    border-right: 2px solid #E6E9EA;
+    border-bottom: 2px solid #E6E9EA;
+    padding: 50px;
+    margin: 20px;
+    border-top-color: #0000AA;
+    border-top-style: solid;
+    box-shadow: 3px 6px #19191A;
+  }
+
+img {
+    border: none;
+}
+
+h1, img {
+    vertical-align: middle;
+    margin-right: 5px;
+}    
+
+p {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-weight: normal;
+    font-size: 42
+}
+
+h1 {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-weight: normal;
+    font-size: 100;
+    margin: 0;
+}
+
+.custom {
+    cursor: url(images/my-cursor.png), auto;
+}
+
+::selection { background: pink; }
+
+.subtitle {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-weight: normal;
+    font-size: 80;
+    margin: 0;
+    color: blue
+}
+
+.subtitle {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-weight: normal;
+    font-size: 80;
+    margin: 0;
+    color: blue
+}
+
+a {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-weight: normal;
+    font-size: 42;
+}
+
+a:visited {
+    font-family: 'Fixedsys Excelsior 3.01';
+    font-weight: normal;
+    font-size: 42;
+    color: black;
+}
+
+a:hover {
+    cursor: url("http://www.rw-designer.com/cursor-download.php?id=128675"), auto !important
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
