@@ -37,6 +37,7 @@ div.gui {
     margin: 20px;
     border-top-color: #0000AA;
     border-top-style: solid;
+    border-top-width: 5px;
     box-shadow: 3px 6px #19191A;
   }
 
