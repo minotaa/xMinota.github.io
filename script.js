@@ -4,3 +4,8 @@ function scrollTitle() {
 	document.title = scrl;
 	setTimeout("scrollTitle()", 300);
 }; scrollTitle();
+
+function playAudio() { 
+    var x = document.getElementById("audio"); 
+  x.play(); 
+} 
