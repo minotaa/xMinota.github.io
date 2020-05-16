@@ -9,6 +9,11 @@ function getRandomRGBValue() {
     return Math.min(Math.floor(Math.random() * 255 + 1), 255);
 }
 
+function start() {
+    changeThemeColor()
+    playAudio()
+}
+
 function getRandomColor() {
     var r = getRandomRGBValue(),
         g = getRandomRGBValue(),
